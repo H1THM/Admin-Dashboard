@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', system-ui, -apple-system, sans-serif;
+    display: grid;
+    grid: 400px 1600px / 400px 2000px
+}
+
+
+.sidebar {
+grid-row: span 2;
+display: grid;
+align-content: start;
+background-color: #1992d4;
+color: white;
+}
+
+.sidebarItem {
+    display: grid;
+    grid-template-columns: 100px 70px;
+    align-items: center;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.sidebar img {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    filter: brightness(0) invert(1);
+}
+
+.header {
+    display: grid;
+    grid-template-rows: 100px 175px;
+}
+
+.headerItem {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.header img {
+    width: 35px;
+    height: 35px;
+    filter: brightness(0);
+    margin-left: 75px;
+}
+
+.header span {
+    margin-left: 35px;
+}
+#catImg {
+    filter: brightness(1);
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    margin-left: 40px;
+}
+
+#searchbar{
+    background-color: #e2e8f0;
+    border-radius: 9999px;
+    width: 700px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+
+
+.maincontent {
+    display: grid;
+}
+
+.test{
+    border: medium solid red;
+}
+
